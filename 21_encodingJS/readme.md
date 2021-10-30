@@ -1,0 +1,4 @@
+encoding.js ShiftJIS转码包的使用，SJIS第一水準第二水準の比較判断
+
+D:\02_ALL_WORKSPACE\reactWK\ReactAtguigu\react_staging\21_encodingJS\components\Header\index.jsx
+checkExistIllegalSjis方法
