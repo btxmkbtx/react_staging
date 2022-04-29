@@ -3,7 +3,8 @@ import StateHooksDemo1 from "./component/1_stateHooks/demo1";
 import StateHooksDemo2 from "./component/1_stateHooks/demo2";
 import EffectHooksDemo1 from "./component/2_effectHooks/demo1";
 import EffectHooksDemo2 from "./component/2_effectHooks/demo2";
-import ContextDemo1 from "./component/3_context"
+import ContextDemo1 from "./component/3_context/demo1"
+import ContextDemo2 from "./component/3_context/demo2"
 import ReducerDemo1 from "./component/4_reducer"
 import UseHooks from "./component/5_useHooks_counter"
 import MemoDemo from "./component/6_memo"
@@ -25,8 +26,10 @@ export default class App extends Component {
                     <EffectHooksDemo1/>
                     <h1>effect hooks demo2</h1>
                     <EffectHooksDemo2/>
-                    <h1>context demo</h1>
+                    <h1>context demo1</h1>
                     <ContextDemo1/>
+                    <h1>context demo2</h1>
+                    <ContextDemo2/>
                     <h1>reducer demo</h1>
                     <ReducerDemo1/>
                     <h1>自定义hooks demo</h1>

@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import {useState, useEffect} from 'react'
 
 //这就是一个最简单的自定义use,可以定义一个hooks目录专门管理这种代码
 export default function useCount(initialCount = 0){
