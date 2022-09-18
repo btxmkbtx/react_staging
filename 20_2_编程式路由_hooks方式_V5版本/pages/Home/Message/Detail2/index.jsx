@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 
 export default function Detail2() {
   const location = useLocation();
-  const myParams = new URLSearchParams(location.search);
+  const myParams = new URLSearchParams(location.search); //URLSearchParams是用来替代querystring的新原生方法
 
   return (
     <ul>
