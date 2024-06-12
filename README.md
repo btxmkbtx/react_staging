@@ -30,7 +30,7 @@
 					} catch (error) {
 						console.log('请求出错',error);
 					}
-				
+
 
 ## 三、路由的基本使用
 			1.明确好界面中的导航区、展示区
@@ -110,7 +110,7 @@
 							注册路由(无需声明，正常注册即可)：<Route path="/demo/test" component={Test}/>
 							接收参数：this.props.location.state
 							备注：刷新也可以保留住参数
-				
+
 
 
 ## 十二、编程式路由导航
@@ -162,3 +162,6 @@
 						}),
 					);
 				4.备注：不用在组件里亲自引入样式了，即：import 'antd/dist/antd.css'应该删掉
+
+
+
